@@ -1,15 +1,12 @@
 class Redact < Formula
   desc "PII-filtering CLI that intercepts AI agent query commands and redacts sensitive data"
   homepage "https://github.com/GaaraZhu/redact"
-  url "https://github.com/GaaraZhu/redact/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "7c05cce330ef5c3ded6732a23810ad672dff7aa314c727cdb8e3d3601e2943da"
+  url "https://github.com/GaaraZhu/redact/releases/download/v0.1.0/redact-0.1.0-aarch64-apple-darwin.tar.gz"
+  sha256 "REPLACE_WITH_BINARY_CHECKSUM"
   license "MIT"
-  head "https://github.com/GaaraZhu/redact.git", branch: "main"
-
-  depends_on "rust" => :build
 
   def install
-    system "cargo", "install", "--locked", "--root", prefix, "--path", "crates/redact"
+    bin.install "redact"
   end
 
   test do
