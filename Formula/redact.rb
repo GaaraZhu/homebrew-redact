@@ -1,8 +1,8 @@
 class Redact < Formula
   desc "PII-filtering CLI that intercepts AI agent query commands and redacts sensitive data"
   homepage "https://github.com/GaaraZhu/redact"
-  url "https://github.com/GaaraZhu/redact/releases/download/v0.1.2/redact-0.1.2-aarch64-apple-darwin.tar.gz"
-  sha256 "a8e0d49f89dbdb8c57f46bb15c378c914255dfe5119edceebfb97de504ad7e16"
+  url "https://github.com/GaaraZhu/redact/releases/download/v0.1.3/redact-0.1.3-aarch64-apple-darwin.tar.gz"
+  sha256 "bba3a1ab52b9a30e09fc8d6b40197160f157cd9d39cd9b08528a4434ba37596f"
   license "MIT"
 
   def install
