@@ -1,8 +1,8 @@
 class Gate < Formula
   desc "A deterministic privacy boundary between your data and AI"
   homepage "https://github.com/GaaraZhu/gate"
-  url "https://github.com/GaaraZhu/gate/releases/download/v0.3.3/gate-0.3.3-aarch64-apple-darwin.tar.gz"
-  sha256 "497e802569a6f80fc103d1634800b480cd0a3b07c6651a6f9427dbae8720fb06"
+  url "https://github.com/GaaraZhu/gate/releases/download/v0.3.4/gate-0.3.4-aarch64-apple-darwin.tar.gz"
+  sha256 "e4e53e9300787a688685f738d4fd3a4c3abf926aeb99cdc6aa068675b70832ea"
   license "MIT"
 
   def install
