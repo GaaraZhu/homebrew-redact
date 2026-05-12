@@ -7,22 +7,22 @@ class Gate < Formula
   on_macos do
     on_arm do
       url "https://github.com/GaaraZhu/gate/releases/download/v0.6.1/gate-0.6.1-aarch64-apple-darwin.tar.gz"
-      sha256 "e98e802dbe7672cad8994ad79bc267f86dd2e515474417b60f2a8f3a9d7eb192"
+      sha256 "42002281bb4896f12328cdc4bdeb56f060dfbf330e4798b2ba17f4c72991bb4e"
     end
     on_intel do
       url "https://github.com/GaaraZhu/gate/releases/download/v0.6.1/gate-0.6.1-x86_64-apple-darwin.tar.gz"
-      sha256 "312e0c6e5e76da875b9f579fb05fb99a4da4fc601a3d2ec7a3a811ef90e6b512"
+      sha256 "eea6323b787276873a98cf84bcaee1e06d52dde4af34317f1704173105877c3e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/GaaraZhu/gate/releases/download/v0.6.1/gate-0.6.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "73c139940c37512745424e6347afc51509175fb0c40a06b3a4de65ffa8851ebf"
+      sha256 "0f6cea4d7e5697043bd99609a3c50268122446afe98d4d287b66e3baf9f5dfdd"
     end
     on_intel do
       url "https://github.com/GaaraZhu/gate/releases/download/v0.6.1/gate-0.6.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fbda000e41cfaef5c3e4adc35818340007e22fa1dfa87bf976fc4e41768d13d1"
+      sha256 "755db22c61111a31885bc9d24d59d1b6603b9cbf19425ec4d48ba786c94dead3"
     end
   end
 
